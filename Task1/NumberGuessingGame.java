@@ -8,7 +8,7 @@ Random rand = new Random();
 int notoGuess=rand.nextInt(100)+1;
 int userGuess =0;
 int attempts =0;
-System.out.println("Welcome to No Guess Game!");
+System.out.println("Welcome to Number Guess Game!");
 System.out.println("Guess a no between 1 to 100 ");
 while(userGuess!=notoGuess)
   {
@@ -19,7 +19,7 @@ while(userGuess!=notoGuess)
     {
       System.out.println("Too low!Try Again.");
     }
-    else if(userGuess<notoGuess)
+    else if(userGuess>notoGuess)
     {
       System.out.println("Too high!Try Again.");
     }
@@ -32,5 +32,5 @@ sc.close();
 }
 }
  
-
+ 
 
