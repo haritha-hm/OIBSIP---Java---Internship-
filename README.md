@@ -1,7 +1,12 @@
 # OIBSIP---Java---Internship-
 Java Development Internship - Oasis
 Infobyte (AICTE)
-Name : Haritha Manivannan
-Branch : ECE
-Duration : Dec 2025 - Jan 2025
-This repository contains Java projects completed during the Oasis Infobyte Java Development Internship.
+## Task 1: Number Guessing Game
+This is a simple java console application where the user guesses a randomly generated number between 1 and 100.
+### Features
+- Random number generation.
+- User Input using Scanner
+- Hint messages(Too high/Too low)
+- Attempt counter
+  ### Technology Used
+  - Java
