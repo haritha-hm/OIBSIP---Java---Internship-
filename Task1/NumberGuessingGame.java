@@ -2,10 +2,10 @@ import java.util.Scanner;
 import java.util.Random;
 public class NGG{
   public static void main(String[] args)
-}
+  {
 Scanner sc =new Scanner(System.in);
 Random rand = new Random();
-int notoGuess=rand.nextInt();
+int notoGuess=rand.nextInt(100)+1;
 int userGuess =0;
 int attempts =0;
 System.out.println("Welcome to No Guess Game!");
