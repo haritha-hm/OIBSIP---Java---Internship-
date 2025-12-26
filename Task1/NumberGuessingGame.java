@@ -1,0 +1,36 @@
+import java.util.Scanner;
+import java.util.Random;
+public class NGG{
+  public static void main(String[] args)
+}
+Scanner sc =new Scanner(System.in);
+Random rand = new Random();
+int notoGuess=rand.nextInt();
+int userGuess =0;
+int attempts =0;
+System.out.println("Welcome to No Guess Game!");
+System.out.println("Guess a no between 1 to 100 ");
+while(userGuess!=notoGuess)
+  {
+    System.out.println("Enter your Guess :");
+    userGuess = sc.nextInt();
+    attempts++;
+    if(userGuess<notoGuess)
+    {
+      System.out.println("Too low!Try Again.");
+    }
+    else if(userGuess<notoGuess)
+    {
+      System.out.println("Too high!Try Again.");
+    }
+    else
+    {
+      System.out.println("Congratulations!You Guessed" +attempts+ "attempts.");
+    }
+  }
+sc.close();
+}
+}
+ 
+
+
