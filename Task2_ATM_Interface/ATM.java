@@ -61,8 +61,8 @@ class ATM{
         if (amount <= balance)
         {
             balance -= amount;
-            history.add("Withdrawn: ₹" + amount);
-            System.out.println("Withdraw successful. Balance: ₹" + balance);
+            history.add("Withdrawn: Rs." + amount);
+            System.out.println("Withdraw successful. Balance: Rs." + balance);
         } 
         else 
         {
@@ -75,8 +75,8 @@ class ATM{
         System.out.print("Enter amount to deposit: ");
         double amount = sc.nextDouble();
         balance += amount;
-        history.add("Deposited: ₹" + amount);
-        System.out.println("Deposit successful. Balance: ₹" + balance);
+        history.add("Deposited: Rs." + amount);
+        System.out.println("Deposit successful. Balance: Rs." + balance);
     }
 
     static void transfer() 
@@ -86,8 +86,8 @@ class ATM{
         if (amount <= balance) 
         {
             balance -= amount;
-            history.add("Transferred: ₹" + amount);
-            System.out.println("Transfer successful. Balance: ₹" + balance);
+            history.add("Transferred: Rs." + amount);
+            System.out.println("Transfer successful. Balance: Rs." + balance);
         } else 
         {
             System.out.println("Insufficient balance.");
